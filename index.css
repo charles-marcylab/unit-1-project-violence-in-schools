@@ -1,23 +1,22 @@
 .title{
-    background:red;
-    text-align: center;
-    margin-top:0;
-    padding-top:10px;
-    padding-bottom:10;
-    font-family:Chalkduster, fantasy;
+  background:red;
+  text-align: center;
+  margin-top:0;
+  padding-top:10px;
+  padding-bottom:10;
+  font-family:Chalkduster, fantasy;
 }
 
 section {
-    background:#e9967a;
-    padding-top:100px;
-    padding-bottom: 100px;
-    margin-top:-20px;
-    
+  background: #e9967a;
+  padding-top:100px;
+  padding-bottom: 100px;
+  margin-top:-20px;
 }
 
 .container-1{
-    text-align: center;
-    display: center;
+   text-align: center;
+  display: center;
 }
 
 li {
@@ -25,23 +24,14 @@ li {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+   color: black;
+  text-decoration: none;
 }
 
 .homepage-overlay {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  /*justify-content: ;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*align-items: center;*/
-  /*text-align: center;*/
-  /*width: calc(100% / 3);*/
-  /*margin: 10px;*/
-  /*border: 1px solid #000;*/
-  /*border-radius: 3px;*/
 }
 
 .homepage-bullying-overlay {
@@ -126,59 +116,3 @@ a {
   }
 }
 
-/*.product {*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  align-items: center;*/
-/*  text-align: center;*/
-/*  width: calc(100% / 3);*/
-/*  margin: 10px;*/
-/*  border: 1px solid #000;*/
-/*  border-radius: 3px;*/
-/*}*/
-
-/*.product>.level-r {*/
-/*  background-color: #ff0000;*/
-/*  color: black;*/
-/*  padding: 15px 0;*/
-/*  width: 100%;*/
-/*  text-transform: uppercase;*/
-/*  font-weight: 700;*/
-/*}*/
-
-/*.product>.level-b {*/
-/*  background-color: #0000ff;*/
-/*  color: black;*/
-/*  padding: 15px 0;*/
-/*  width: 100%;*/
-/*  text-transform: uppercase;*/
-/*  font-weight: 700;*/
-/*}*/
-
-/*.product>.level-g {*/
-/*  background-color: #00ff00;*/
-/*  color: black;*/
-/*  padding: 15px 0;*/
-/*  width: 100%;*/
-/*  text-transform: uppercase;*/
-/*  font-weight: 700;*/
-/*}*/
-
-/*.product>h2 {*/
-/*  margin-top: 15px;*/
-/*}*/
-
-/*.product>ol {*/
-/*  margin: 15px 0;*/
-/*}*/
-
-/*.product>ol>li {*/
-/*  padding: 5px 0;*/
-/*}*/
-
-/*.product>button {*/
-/*  border: 0;*/
-/*  margin: 15px 0;*/
-/*  background-color: #f1c40f;*/
-/*  font-weight: 400;*/
-/*}*/
