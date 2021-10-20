@@ -116,12 +116,41 @@ a {
   opacity: 1;
 }
 
-@media (max-width: 550px) {
+/*header {*/
+/*  position: fixed;*/
+/*}*/
+
+@media (max-width: 600px) {
   .homepage-overlay {
     flex-direction: column;
+    justify-content: center;
   }
 }
 
 
 
 
+@media (max-width: 600px) {
+  .image {
+    display: block;
+    width: 330px;
+    height: 330px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 330px;
+    width: 330px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+}
