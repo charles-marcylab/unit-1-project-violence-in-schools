@@ -35,6 +35,7 @@ body {
   background-color: #FDE9AA;
   padding: 20px;
   font-size: 1.2em;
+  /*position: fixed;*/
 }
 
 .main-img {
@@ -60,18 +61,18 @@ footer {
 
 @media only screen and (max-width: 550px) {
   .row, .navbar {   
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
 
 .title{
-  background:red;
+  background: #D10000;
   text-align: center;
   margin-top:0;
   padding-top:10px;
   padding-bottom:10;
-  font-family:Chalkduster, fantasy;
+  font-family: Chalkduster, fantasy;
 }
 
 section {
