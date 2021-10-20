@@ -110,6 +110,10 @@ a {
   opacity: 1;
 }
 
+/*header {*/
+/*  position: fixed;*/
+/*}*/
+
 @media (max-width: 600px) {
   .homepage-overlay {
     flex-direction: column;
