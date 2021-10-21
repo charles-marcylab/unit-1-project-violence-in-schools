@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  background-color: #000000;
+  background-color: #FF7267;
   margin: 0 auto;
   width: 95%;
 }
@@ -20,47 +20,54 @@ body {
 
 .row {  
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .side {
-  flex:40%;
-  background-color: #2196F3;
-  padding: 20px;
+  background-color: #51A1E9;
   font-size: 1.3em;
-  text-align: center;
-  margin-top: -20px;
-  font-family:cursive;
-  line-height: 3px;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 0%;
+  padding-bottom: 2%;
+  
 }
-
+.side h2 {
+  text-align: center;
+}
 .main {
-  flex: 60%;
+  flex: 70%;
   background-color: #FDE9AA;
-  padding: 20px;
-  font-size: 1.2em;
-  margin-top: -20px;
-  font-family: cursive;
+  padding: 1% 10%;
+  font-size: 1.1em;
+  text-align: center;
   /*position: fixed;*/
+  width: 100%;
 }
 
 .main-img {
 /*  width: 100%;*/
   display: flex;
   width: 60vw;
-  height: 36vh;
+  height: auto;
 }
 figure {
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-figcaption {
-  text-align: center;
-}
+/*figcaption {*/
+/*  text-align: center;*/
+/*}*/
 
 footer {
   padding: 20px;
   text-align: center;
-  background-color: #F44336;
+  background-color: #AAEC15;
 }
 
 
@@ -70,14 +77,27 @@ footer {
   }
 }
 
+@media only screen and (max-width: 550px) {
+  p {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  figure > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 .title{
-  background: #F44336;
+  background:#D10000;
   text-align: center;
   margin-top:0;
   padding-top:10px;
-  padding-bottom:10px;
-  font-family: cursive;
+  padding-bottom:20px;
+  font-family: Chalkduster, fantasy;
 }
 
 section {
@@ -87,10 +107,16 @@ section {
   margin-top:-20px;
 }
 
-h2 {
-  text-decoration: underline;
-}
-
 /*header {*/
 /*  position: fixed;*/
+/*}*/
+
+.para1 {
+  font-size: 1.3em;
+}
+
+/*@media only screen and (max-width: 550px) {*/
+/*  p {*/
+/*    text-align: center;*/
+/*  }*/
 /*}*/
