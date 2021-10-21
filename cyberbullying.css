@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  background-color: #FF7267;
+  background-color: #000000;
   margin: 0 auto;
   width: 95%;
 }
@@ -67,7 +67,7 @@ figure {
 footer {
   padding: 20px;
   text-align: center;
-  background-color: #AAEC15;
+  background-color: #D10000;
 }
 
 
