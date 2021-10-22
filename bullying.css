@@ -39,19 +39,21 @@ body {
 }
 .main {
   flex: 70%;
-  background-color:#7e685a;
+  background-color:#c8cfdc;
   padding: 1% 10%;
   font-size: 1.1em;
   text-align: center;
   /*position: fixed;*/
   width: 100%;
+  
 }
 
 .main-img {
 /*  width: 100%;*/
   display: flex;
-  width: 60vw;
-  height: auto;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
 }
 figure {
   margin: 0 auto;
@@ -67,7 +69,7 @@ figure {
 footer {
   padding: 20px;
   text-align: center;
-  background-color: #E7717d;
+  background-color: #8e7978;
 }
 
 
@@ -92,7 +94,7 @@ footer {
 }
 
 .title{
-  background:#e7717d;
+  background:#8e7978;
   text-align: center;
   margin-top:0;
   padding-top:10px;
@@ -113,9 +115,17 @@ section {
 
 .para1 {
   font-size: 1.3em;
-  color: white;
+  color: black;
   font-family: cursive;
+
 }
+.para2 {
+  font-size: 1.3em;
+  color: black;
+  font-family: cursive;
+
+}
+
 
 /*@media only screen and (max-width: 550px) {*/
 /*  p {*/
