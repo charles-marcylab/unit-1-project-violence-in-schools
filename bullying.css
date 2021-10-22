@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  background-color: #000000;
+  background-color: #c2cad0;
   margin: 0 auto;
   width: 95%;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .side {
-  background-color: #51A1E9;
+  background-color: #c2b9b0;
   font-size: 1.3em;
   width: 100%;
   padding-left: 15%;
@@ -39,7 +39,7 @@ body {
 }
 .main {
   flex: 70%;
-  background-color: #FDE9AA;
+  background-color:#7e685a;
   padding: 1% 10%;
   font-size: 1.1em;
   text-align: center;
@@ -67,7 +67,7 @@ figure {
 footer {
   padding: 20px;
   text-align: center;
-  background-color: #D10000;
+  background-color: #E7717d;
 }
 
 
@@ -92,7 +92,7 @@ footer {
 }
 
 .title{
-  background:#D10000;
+  background:#e7717d;
   text-align: center;
   margin-top:0;
   padding-top:10px;
@@ -104,7 +104,7 @@ section {
   background: #e9967a;
   padding-top:100px;
   padding-bottom: 100px;
-  margin-top:-20px;
+  margin-top:-40px;
 }
 
 /*header {*/
@@ -113,6 +113,8 @@ section {
 
 .para1 {
   font-size: 1.3em;
+  color: white;
+  font-family: cursive;
 }
 
 /*@media only screen and (max-width: 550px) {*/
