@@ -3,10 +3,11 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   background-color: #c2cad0;
   overflow: auto;
   width: 100%;
+  
 }
 
 /*.header {*/
@@ -18,21 +19,28 @@ body {
 /*  position: fixed;*/
 /*}*/
 
-.row {  
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 header {
-  height: 100px;
+  height: 200px;
+}
+header h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 1%;
+
 }
 
+h1 {
+  font-size: 50px !important;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 .side {
   background-color: #dad6ec;
   font-size: 1.3em;
   width: 100%;
-  padding-left: 15%;
-  padding-right: 15%;
+  /*padding-left: 15%;*/
+  /*padding-right: 15%;*/
   padding-top: 0%;
   padding-bottom: 2%;
   
@@ -65,14 +73,27 @@ figure {
   align-items: center;
 }
 
+.row {  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*padding-left: -10px;*/
+}
+
 /*figcaption {*/
 /*  text-align: center;*/
 /*}*/
+.side ul{
+  padding: 0 30%;
+}
+
+
 
 footer {
   padding: 20px;
-  text-align: center;
   background-color: #8e7978;
+  height: 200px;
+  font-size: 25px;
 }
 
 
@@ -136,5 +157,28 @@ section {
 /*    text-align: center;*/
 /*  }*/
 /*}*/
+
+.main p {
+  font-size: 20px;
+  font-family: cursive;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.side ul li {
+   font-size: 20px;
+   font-family: cursive;
+   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+footer .next {
+  padding-right:1%;
+}
+
+
+footer {
+  align-items: center;
+}
+
 
 
