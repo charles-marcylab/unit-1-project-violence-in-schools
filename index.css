@@ -5,14 +5,10 @@
 }
 
 body {
-  font-family: verdana;
   height: 77vh;
+  font-family: American Typewriter, serif;
 }
 
-.blackground{
-  background:black;
- margin-top: 100px;
-}
 
 .title{
 
@@ -55,9 +51,9 @@ a {
 .homepage-overlay {
   display: flex;
   flex-direction: row;
-  background-color: #cdd;
-  padding-top: 30px;
-  padding-bottom: 46px;
+  background-color: #ffffff;
+  padding-top: 37px;
+  padding-bottom: 15px;
 }
 
 .homepage-bullying-overlay {
@@ -139,19 +135,19 @@ a {
   opacity: 1;
 }
 
-header {
-  text-align: center;
-  background-color: #444;
-  margin-top:0;
-  padding-top:5px;
-  padding-bottom:30px;
-  font-family: Chalkduster, fantasy;
-  height: 20vh;
-}
+/*header {*/
+/*  text-align: center;*/
+/*  background-color: #444;*/
+/*  margin-top:0;*/
+/*  padding-top:5px;*/
+/*  padding-bottom:30px;*/
+/*  font-family: American Typewriter, serif;*/
+/*  height: 20vh;*/
+/*}*/
 
-.top-p {
-  height: 6vh;
-}
+/*.top-p {*/
+/*  height: 6vh;*/
+/*}*/
 
 @media (max-width: 550px) {
   .homepage-overlay {
@@ -178,29 +174,29 @@ header {
 
 .sign-up {
   font-family: cursive;  
-  margin-top: 120px;
+  margin-top: 130px;
   color: black;
   text-align: center;
-  background-color: #dde;
+  background-color: #ffffff;
 }
 
-.enter{
-  color:white;
-}
+/*.enter{*/
+/*  color:white;*/
+/*}*/
 
-.top {
-  color: white;
-  text-align: center;
-}
+/*.top {*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*}*/
 
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
+/*.topnav a {*/
+/*  float: left;*/
+/*  color: #f2f2f2;*/
+/*  text-align: center;*/
+/*  padding: 14px 16px;*/
+/*  text-decoration: none;*/
+/*  font-size: 17px;*/
+/*}*/
 
 
 #mySidenav a {
