@@ -16,7 +16,7 @@ Git workflow, among many other things. This, in fact, is the point.
 These are all thing that you will encounter on the job so we may as well
  begin preparing now! :blush:
 |Team Member #1 | Team Member #2 | Team Member #3|
-|---|---|---|
+|------------------|----------------|---------------=|
 | Shevaughn legall | Zohiab Manzoor | Charles Yarney |
 ### Process
 1.
