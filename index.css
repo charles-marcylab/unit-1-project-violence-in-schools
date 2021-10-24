@@ -7,6 +7,7 @@
 
 body {
   font-family: verdana;
+  height: 100vh;
 }
 
 .banner-area {
@@ -63,9 +64,11 @@ a {
 }
 
 .homepage-overlay {
-  margin-top: 10px;
   display: flex;
   flex-direction: row;
+  background-color: #000;
+  padding-top: 20px;
+  padding-bottom: 35px;
 }
 
 .homepage-bullying-overlay {
@@ -145,49 +148,89 @@ a {
 }
 
 header {
-  position: fixed;
+  text-align: center;
+  background-color: #444;
+  margin-top:0;
+  padding-top:5px;
+  padding-bottom:30px;
+  font-family: Chalkduster, fantasy;
+  height: 35vh;
+}
+.top-p {
+  height: 6vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   .homepage-overlay {
+    display: flex;
     flex-direction: column;
     justify-content: center;
   }
+  .homepage-bullying-overlay {
+    width: 63%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .homepage-cyberbullying-overlay {
+    width: 63%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .homepage-social-overlay {
+    width: 63%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  /*header {*/
+  /*  background:url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/anti-bullying-slogan-facebook-cover-template-design-2903bae1799f92d6f53e82f7691a87b3_screen.jpg?ts=1561379948");*/
+  /*  background-repeat: no-repeat;*/
+  /*  background-size: cover;*/
+  /*}*/
+}
+
+/*@media (max-width: 550px) {*/
+/*  .homepage-overlay {*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*  }*/
+/*}*/
+
+/*@media (max-width: 550px) {*/
+/*  .homepage-bullying-overlay {*/
+  /*positi
 }
 
 
-
-
-@media (max-width: 600px) {
-  .image {
-    display: block;
-    width: 330px;
-    height: 330px;
-    justify-content: center;
-    margin: 0 auto;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 330px;
-    width: 330px;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-    justify-content: center;
-    margin: 0 auto;
-  }
+/*@media (max-width: 550px) {*/
+/*  .image {*/
+/*    display: block;*/
+/*    width: 330px;*/
+/*    height: 330px;*/
+/*    justify-content: center;*/
+/*    margin: 0 auto;*/
+/*  }*/
+/*  .overlay {*/
+    /*position: absolute;*/
+/*    top: 0;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    height: 330px;*/
+/*    width: 330px;*/
+/*    opacity: 0;*/
+/*    transition: .5s ease;*/
+/*    background-color: #008CBA;*/
+/*    justify-content: center;*/
+/*    margin: 0 auto;*/
+/*  }*/
   
-}
+/*}*/
 
 .sign-up {
-font-family: cursive;  
-margin-top:-40px;
-margin-left: -10px;
-color: white;
+  font-family: cursive;  
+  margin-top:27px;
+  margin-left: -10px;
+  color: white;
 }
 
 .enter{
@@ -212,14 +255,14 @@ color: white;
 
 #mySidenav a {
   position: absolute; 
-  left: -80px; 
+  left: -77px; 
   transition: 0.3s;
   padding: 15px; 
   width: 100px; 
   text-decoration: none;
-  font-size: 20px; 
+  font-size: 10px; 
   color: white; 
-  border-radius: 0 5px 5px 0; 
+  border-radius: 0 20px 20px 0; 
   
 }
 
@@ -229,17 +272,17 @@ color: white;
 
 
 #about {
-  top: 20px;
-  background-color: #555;
+  top: 7px;
+  background-color: #55A;
 }
 
-#blog {
-  top: 80px;
-  background-color: #2196F3; /* Blue */
+#next-steps-tab {
+  top: 33px;
+  background-color: #00ff00; /* Blue */
 }
 
-#projects {
-  top: 140px;
+#more-info {
+  top: 62px;
   background-color: #f44336; /* Red 
 }
 
@@ -253,3 +296,24 @@ color: white;
 
 
 
+.btn {
+  padding: 0 20px;
+  height: 28px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 1px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-1 {
+  height: 30px;
+  width: 280px;
+  text-transform: uppercase;
+  border: 1px black dashed;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
