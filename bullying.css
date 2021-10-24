@@ -12,6 +12,19 @@ main {
 }
 
 
+.side {
+  background-color: #dad6ec;
+  font-size: 1.3em;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 0%;
+  padding-bottom: 2%;
+}
+.side h2 {
+  text-align: center;
+}
+
 .bold {
   font-weight: 600;
 }
