@@ -146,3 +146,8 @@ body {
 .pt-5 {
     padding-top: 1rem!important;
 }
+
+footer .col-12 {
+  display: flex;
+  justify-content: end;
+}
