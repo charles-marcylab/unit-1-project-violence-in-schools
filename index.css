@@ -1,59 +1,20 @@
 * {
   padding: 0;
   margin:0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 body {
-  height: 77vh;
+  /*height: 77vh;*/
   font-family: American Typewriter, serif;
-}
-
-
-.title{
-
-  background:#D10000;
-
-  text-align: center;
-  margin-top:0;
-  padding-top:10px;
-  padding-bottom:10;
-  font-family:Chalkduster, fantasy;
-}
-
-section {
-  /*background: #e9967a;*/
-  /*background:#e9967a;*/
-  padding-top:100px;
-  padding-bottom: 100px;
-  margin-top:-20px;
-}
-
-.container-1{
-   text-align: center;
-  text-align: center;
-  display: center;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-
-   color: black;
-
-  color: black;
-
-  text-decoration: none;
 }
 
 .homepage-overlay {
   display: flex;
   flex-direction: row;
   background-color: #ffffff;
-  padding-top: 37px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 0px;ss
 }
 
 .homepage-bullying-overlay {
@@ -135,19 +96,11 @@ a {
   opacity: 1;
 }
 
-/*header {*/
-/*  text-align: center;*/
-/*  background-color: #444;*/
-/*  margin-top:0;*/
-/*  padding-top:5px;*/
-/*  padding-bottom:30px;*/
-/*  font-family: American Typewriter, serif;*/
-/*  height: 20vh;*/
-/*}*/
-
-/*.top-p {*/
-/*  height: 6vh;*/
-/*}*/
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
 
 @media (max-width: 550px) {
   .homepage-overlay {
@@ -180,62 +133,6 @@ a {
   background-color: #ffffff;
 }
 
-/*.enter{*/
-/*  color:white;*/
-/*}*/
-
-/*.top {*/
-/*  color: white;*/
-/*  text-align: center;*/
-/*}*/
-
-/*.topnav a {*/
-/*  float: left;*/
-/*  color: #f2f2f2;*/
-/*  text-align: center;*/
-/*  padding: 14px 16px;*/
-/*  text-decoration: none;*/
-/*  font-size: 17px;*/
-/*}*/
-
-
-#mySidenav a {
-  position: absolute; 
-  left: -77px; 
-  transition: 0.3s;
-  padding: 15px; 
-  width: 100px; 
-  text-decoration: none;
-  font-size: 10px; 
-  color: white; 
-  border-radius: 0 20px 20px 0; 
-  
-}
-
-#mySidenav a:hover {
-  left: 0; 
-}
-
-#about {
-  top: 7px;
-  background-color: #55A;
-}
-
-#next-steps-tab {
-  top: 33px;
-  background-color: #00ff00; /* Blue */
-}
-
-#more-info {
-  top: 62px;
-  background-color: #f44336; /* Red 
-}
-
-#contact {
-  top: 200px;
-  background-color: #555 /* Light Black */
-}
-
 .btn-success {
     color: #6ba;
     background-color: #198754;
@@ -246,3 +143,6 @@ a {
     margin-bottom: 0rem !important;
 }
 
+.pt-5 {
+    padding-top: 1rem!important;
+}
