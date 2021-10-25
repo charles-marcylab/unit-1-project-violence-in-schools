@@ -17,7 +17,7 @@ These are all thing that you will encounter on the job so we may as well
  begin preparing now! :blush:
 |Team Member #1 | Team Member #2 | Team Member #3|
 |------------------|----------------|---------------=|
-| Shevaughn legall | Zohiab Manzoor | Charles Yarney |
+| Shevaughn legall | Zohaib Manzoor | Charles Yarney |
 ### Process
 1.
  Identify a cause or social issue in your communities that you want to
