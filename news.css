@@ -11,20 +11,6 @@ main {
   flex-direction: row-reverse;
 }
 
-
-.side {
-  background-color: #dad6ec;
-  font-size: 1.3em;
-  width: 100%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 0%;
-  padding-bottom: 2%;
-}
-.side h2 {
-  text-align: center;
-}
-
 .bold {
   font-weight: 600;
 }
@@ -50,7 +36,6 @@ main {
 iframe {
   width: 100%;
   height: 100%;
-  ;
 }
 
 footer .col-12 {
@@ -58,6 +43,9 @@ footer .col-12 {
   justify-content: center;
 }
 
+footer a {
+  text-decoration: none;
+}
 /*Media Queries*/
 
 @media only screen and (min-width: 375px) {
@@ -72,7 +60,7 @@ footer .col-12 {
     margin-bottom: 7%;
   }
   main .col-12 h2 {
-    line-height: 1.5;
+    line-height: 1.3;
   }
 }
 
@@ -90,7 +78,6 @@ footer .col-12 {
   }
   .video {
     height: 350px;
-
   }
   .facts {
     margin-top: 10%;
@@ -103,6 +90,10 @@ footer .col-12 {
   }
   main .col-12 h2 {
     line-height: 1.2;
+  }
+  .rounded-circle {
+    width: 50% !important;
+    height: 50% !important;
   }
 }
 
@@ -119,6 +110,10 @@ footer .col-12 {
   main .col-12 h2 {
     line-height: 1.5;
   }
+  .rounded-circle {
+    width: 100%; 
+    height: 100%; 
+  }
 }
 
 @media only screen and (min-width: 1800px) {
@@ -129,9 +124,8 @@ footer .col-12 {
     height: 600px;
   }
   iframe {
-    width: 100%;
-    height: 100%;
-    ;
+    width: 10%;
+    height: 10%;
   }
   .box-1 {
     padding-top: 5%;
@@ -141,9 +135,6 @@ footer .col-12 {
   }
 
 }
-
-
-
 
 
 
